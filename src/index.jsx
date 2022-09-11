@@ -153,7 +153,6 @@ const AppContent = () => {
   const toggleItemEditing = arrayElements.filter((item) => item.name === 'editing').length;
   const allActiveItem = arrayElements.length - toggleItem - toggleItemEditing;
 
-  console.log(arrayElements);
   return (
     <>
       <NewTaskForm addItemElementForm={addItem} />
